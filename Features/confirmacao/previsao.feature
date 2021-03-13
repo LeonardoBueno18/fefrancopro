@@ -6,14 +6,14 @@ Contexto:
    Dado que esteja logado
    E que esteja na tela de confirmação
 
-   @gerar_numero_compra
-   Cenário: Gerar numero da compra
+   @gerar_previsao
+   Cenário: Gerar previsão de entrega
       E que esteja com condições do cartão válidas
       Quando confirmar a compra
-      Então deverá exibir o numero do pedido
-    
-   @gerar_numero_compra_exception
-   Esquema do Cenário: Gerar numero da compra exception
+      Então deverá exibir a previsão de entrega
+   
+   @gerar_previsao_exception
+   Esquema do Cenário: Gerar previsão de entrega exception
       E que esteja <tipo>
       Quando confirmar a compra
       Então deverá exibir <erro>

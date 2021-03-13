@@ -1,11 +1,12 @@
 #language : pt
-@meusPedidos @status
+@meusPedidos 
 Funcionalidade: Meus Pedidos
 
 Contexto:
-    Dado que esteja logado
-    E que esteja na tela de pedidos
+   Dado que esteja logado
+   E que esteja na tela de pedidos
 
-    Cenário: Verificar status
-       Quando selecionar um pedido
-       Então deverá exibir o status
+   @status
+   Cenário: Verificar status
+      Quando selecionar um pedido
+      Então deverá exibir o status
