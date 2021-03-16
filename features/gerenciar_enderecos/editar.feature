@@ -8,13 +8,13 @@ Contexto:
    
     @editar_endereco
     Cenário: Editar endereço
-        Quando preencher o cadastro de edição com dados validos
+        Quando editar os dados do endereço
         Então deverá exibir a lista atualizada
     
     @editar_endereco_exception
     Esquema do Cenário: Editar endereço exception
-        Quando preencher o cadastro de edição com dados inválidos <tipo>
-        Então deverá exibir <erro>
+        Quando editar os dados do endereço com dados inválidos <tipo>
+        Então deverá exibir o <erro>
 
         Exemplos:
             |       tipo          |                erro                 |

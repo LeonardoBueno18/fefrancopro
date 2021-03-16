@@ -3,7 +3,7 @@
 Funcionalidade: Autenticação
 
 Contexto:
-   Dado que esteja na tela de login
+   Dado que esteja no login
 
    @login
    Cenário: Realizar login

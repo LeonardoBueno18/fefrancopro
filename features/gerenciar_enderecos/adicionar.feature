@@ -8,13 +8,13 @@ Contexto:
    
     @adicionar_endereco
     Cenário: Adicionar endereço
-        Quando preencher o cadastro com dados válidos
+        Quando finalizar o cadastro de endereço
         Então deverá exibir a lista atualizada
     
     @adicionar_endereco_exception
     Esquema do Cenário: Adicionar endereço exception
-        Quando preencher o cadastro com dados inválidos <tipo>
-        Então deverá exibir <erro>
+        Quando preencher o cadastro de endeço com dados inválidos <tipo>
+        Então deverá exibir o <erro>
 
         Exemplos:
             |       tipo          |                erro                 |

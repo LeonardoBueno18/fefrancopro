@@ -14,9 +14,9 @@ Contexto:
     
    @gerar_numero_compra_exception
    Esquema do Cenário: Gerar numero da compra exception
-      E que esteja <tipo>
+      E que esteja com o cartão <tipo>
       Quando confirmar a compra
-      Então deverá exibir <erro>
+      Então deverá exibir o <erro>
 
       Exemplos:
          |            tipo             |                               erro                                 |

@@ -14,9 +14,9 @@ Contexto:
    
    @gerar_previsao_exception
    Esquema do Cenário: Gerar previsão de entrega exception
-      E que esteja <tipo>
+      E que esteja com o cartão <tipo>
       Quando confirmar a compra
-      Então deverá exibir <erro>
+      Então deverá exibir o <erro>
 
       Exemplos:
          |            tipo             |                               erro                                 |

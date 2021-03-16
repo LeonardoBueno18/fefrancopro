@@ -9,6 +9,6 @@ Contexto:
    
     @excluir_endereco
     Cenário: Excluir
-        Quando excluir um endereço
+        Quando excluir o segundo endereço
         Então deverá exibir a lista de endereços atualizada
     

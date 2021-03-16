@@ -16,7 +16,7 @@ Contexto:
    Esquema do Cenário: Pagar com Cartão de crédito exception
       Quando selecionar o método cartão de crédito
       E preencher os dados inválidos do cartão <tipo>
-      Então deverá exibir <erro>
+      Então deverá exibir o <erro>
 
       Exemplos:
          |        tipo         |                               erro                                 |

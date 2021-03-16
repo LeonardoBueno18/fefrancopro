@@ -8,5 +8,5 @@ Contexto:
 
    @status
    Cenário: Verificar status
-      Quando selecionar um pedido
+      Quando selecionar o primeiro pedido
       Então deverá exibir o status

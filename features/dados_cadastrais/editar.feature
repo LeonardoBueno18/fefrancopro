@@ -9,20 +9,20 @@ Contexto:
     @editar_cadastro_PF
     Cenário: Editar cadastro pessoa física
         E que esteja na aba de pessoa física
-        Quando preencher o cadastro com dados válidos
+        Quando editar os dados cadastrais
         Então deverá exibir as informações atualizadas
     
     @editar_cadastro_PJ
     Cenário: Editar cadastro pessoa jurídica
         E que esteja na aba de pessoa jurídica
-        Quando preencher o cadastro com dados válidos
+        Quando editar os dados cadastrais
         Então deverá exibir as informações atualizadas
     
    @editar_cadastro_PF_exception
    Esquema do Cenário: Editar cadastro pessoa física exception
         E que esteja na aba de pessoa física
-        Quando preencher o cadastro com dados inválidos <tipo>
-        Então deverá exibir <erro>
+        Quando editar os dados cadastrais com dados inválidos <tipo>
+        Então deverá exibir o <erro>
 
         Exemplos:
             |       tipo          |                erro                 |
@@ -34,8 +34,8 @@ Contexto:
     @editar_cadastro_PJ_exception
     Esquema do Cenário: Editar cadastro pessoa jurídica exception
         E que esteja na aba de pessoa jurídica
-        Quando preencher o cadastro com dados inválidos <tipo>
-        Então deverá exibir <erro>
+        Quando editar os dados cadastrais com dados inválidos <tipo>
+        Então deverá exibir o <erro>
 
         Exemplos:
             |       tipo          |                erro                 |

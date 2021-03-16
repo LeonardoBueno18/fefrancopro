@@ -3,19 +3,19 @@
 Funcionalidade: Autenticação
 
 Contexto:
-   Dado que esteja na tela de cadastro
+   Dado que esteja no cadastro
     
    @cadastro_usuario_PF
    Cenário: Realizar cadastro de pessoa física
       E que esteja na aba de pessoa física
-      Quando preencher o cadastro com dados validos
+      Quando finalizar o cadastro
       Então deverá exibir as informações da conta 
     
    @cadastro_usuario_PF_exception
    Esquema do Cenário: Realizar cadastro de pessoa física exception
       E que esteja na aba de pessoa física
       Quando preencher o cadastro com dados inválidos <tipo>
-      Então deverá exibir <erro>
+      Então deverá exibir o <erro>
 
       Exemplos:
          |       tipo          |                erro                 |
@@ -30,14 +30,14 @@ Contexto:
    @cadastro_usuario_PJ
    Cenário: Realizar cadastro de pessoa jurídica
       E que esteja na aba de pessoa jurídica
-      Quando preencher o cadastro com dados validos
+      Quando finalizar o cadastro
       Então deverá exibir as informações da conta 
     
    @cadastro_usuario_PJ_exception
    Esquema do Cenário: Realizar cadastro de pessoa jurídica exception
       E que esteja na aba de pessoa jurídica
       Quando preencher o cadastro com dados inválidos <tipo>
-      Então deverá exibir <erro>
+      Então deverá exibir o <erro>
 
       Exemplos:
          |       tipo          |                erro                 |

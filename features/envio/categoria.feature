@@ -7,5 +7,5 @@ Contexto:
     
     @Selecionar_envio
     Cenário: Selecionar envio
-        Quando selecionar a categoria
+        Quando selecionar a primeira categoria de envio
         Então deverá exibir o prazo de entrega

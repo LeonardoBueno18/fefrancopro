@@ -7,5 +7,11 @@ Contexto:
     
     @tamanho
     Cenário: Tamanho
-        Quando selecionar o tamanho
+        Quando selecionar o tamanho do produto <tipo>
         Então deverá informar a disponibilidade
+
+        Exemplos:
+            | tipo | 
+            |  P   | 
+            |  M   | 
+            |  G   |

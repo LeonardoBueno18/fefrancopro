@@ -7,5 +7,5 @@ Contexto:
     
     @pagina_do_produto
     Cenário: Página
-        Quando selecionar um produto
+        Quando selecionar o primeiro produto
         Então deverá exibir a página de informações

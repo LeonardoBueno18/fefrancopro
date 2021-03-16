@@ -3,12 +3,13 @@
 Funcionalidade: Alterar acesso
 
 Contexto:
-    Dado que esteja na tela de Alteração de acesso
+    Dado que esteja logado
+    E que esteja na tela de alteração de acesso
     
     @troca_senha
     Esquema do Cenário: Realizar troca de senha
-        Quando preencher o cadastro com dados validos
-        Então deverá exibir <retorno>
+        Quando editar os dados de acesso
+        Então deverá exibir o <retorno>
         
         Exemplos:
             |                 retorno                  |
@@ -18,7 +19,7 @@ Contexto:
     @troca_senha_exception
     Esquema do Cenário: Realizar troca de senha exception
         Quando preencher o cadastro com dados inválidos <tipo>
-        Então deverá exibir <erro>
+        Então deverá exibir o <erro>
 
         Exemplos:
             |       tipo          |                erro                 |

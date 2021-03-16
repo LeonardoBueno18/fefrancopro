@@ -8,5 +8,5 @@ Contexto:
    
    @rastreio
    Cenário: Verificar rastreio
-      Quando selecionar um pedido
+      Quando selecionar o primeiro pedido
       Então deverá exibir o rastreio do produto
