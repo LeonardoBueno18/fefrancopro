@@ -7,5 +7,5 @@ Contexto:
     
     @remover_compra
     Cenário: Remover compra
-       Quando remover o produto
+       Quando remover o primeiro produto
        Então deverá exibir o carrinho atualizado
